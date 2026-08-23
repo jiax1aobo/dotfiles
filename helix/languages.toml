@@ -1,0 +1,13 @@
+[[language]]
+name = "c"
+language-id = "c"
+formatter = {command = "clang-format", args = ["%{buffer_name}"]}
+
+[[language]]
+name = "cpp"
+language-id = "cpp"
+formatter = {command = "clang-format", args = ["%{buffer_name}"]}
+
+[language-server.clangd]
+command = "clangd"
+args = ["--clang-tidy"]

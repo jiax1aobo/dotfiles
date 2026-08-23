@@ -1,0 +1,14 @@
+theme = "gruvbox"
+
+[editor]
+line-number = "relative"
+cursorline = true
+auto-format = false
+trim-trailing-whitespace = true
+popup-border = "popup"
+
+[editor.soft-wrap]
+enable = true
+
+[editor.lsp]
+display-inlay-hints = true

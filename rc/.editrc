@@ -1,0 +1,3 @@
+# 以下为 macOS 下的 psql 客户端的 vi 模式及 Tab 建补全配置
+bind -v # enable vi mode
+bind ^I rl_complete # enable complete with 'TAB' key

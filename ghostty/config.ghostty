@@ -1,0 +1,21 @@
+cursor-style = block
+
+#theme = Catppuccin Mocha
+#theme = dark:iTerm2 Dark Background,light:iTerm2 Light Background
+theme = iTerm2 Dark Background
+
+split-divider-color = #ff3333
+
+font-family = JetBrainsMono Nerd Font Mono
+font-family-bold = JetBrainsMono NFM Bold
+font-family-italic = JetBrainsMono NFM Italic
+font-family-bold-italic = JetBrainsMono NFM Bold Italic
+
+# background-opacity = 0.50
+# background-blur = macos-glass-clear
+# background-blur = macos-glass-regular
+
+macos-option-as-alt = left
+
+window-height = 40
+window-width = 100
