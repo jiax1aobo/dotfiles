@@ -2,7 +2,8 @@ cursor-style = block
 
 #theme = Catppuccin Mocha
 #theme = dark:iTerm2 Dark Background,light:iTerm2 Light Background
-theme = iTerm2 Dark Background
+#theme = iTerm2 Dark Background
+theme = Gruvbox Dark
 
 split-divider-color = #ff3333
 
