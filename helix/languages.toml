@@ -10,4 +10,4 @@ formatter = {command = "clang-format", args = ["%{buffer_name}"]}
 
 [language-server.clangd]
 command = "clangd"
-args = ["--clang-tidy"]
+args = ["--background-index", "--clang-tidy", "--function-arg-placeholders=1", "--header-insertion=never", "--pch-storage=memory", "--log=error"]

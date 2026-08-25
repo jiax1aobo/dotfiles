@@ -19,7 +19,7 @@ select = "underline"
 
 [editor.indent-guides]
 render = true
-skip-levels = 1
+skip-levels = 0
 
 [editor.soft-wrap]
 enable = true
