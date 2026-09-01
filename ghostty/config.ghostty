@@ -7,7 +7,7 @@ theme = Gruvbox Dark
 
 split-divider-color = #ff3333
 
-font-size = 14
+font-size = 15
 font-family = JetBrainsMono Nerd Font Mono
 font-family-bold = JetBrainsMono NFM Bold
 font-family-italic = JetBrainsMono NFM Italic
