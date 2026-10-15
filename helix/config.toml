@@ -6,8 +6,9 @@ cursorline = true
 auto-format = false
 trim-trailing-whitespace = true
 popup-border = "popup"
-bufferline = "multiple"
+bufferline = "always"
 color-modes = true
+true-color = true
 
 [editor.statusline]
 right = ["diagnostics", "register", "primary-selection-length", "position", "position-percentage", "file-encoding"]

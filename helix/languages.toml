@@ -1,13 +1,23 @@
+[language-server.clangd]
+command = "clangd"
+args = ["--background-index", "--clang-tidy", "--function-arg-placeholders=1", "--header-insertion=never", "--pch-storage=memory", "--log=error"]
+
 [[language]]
 name = "c"
 language-id = "c"
 formatter = {command = "clang-format", args = ["%{buffer_name}"]}
+language-servers = ["clangd"]
+# indent = {tab-width=4,unit="\t"}
 
 [[language]]
 name = "cpp"
 language-id = "cpp"
 formatter = {command = "clang-format", args = ["%{buffer_name}"]}
+language-servers = ["clangd"]
+# indent = {tab-width=4,unit="\t"}
 
-[language-server.clangd]
-command = "clangd"
-args = ["--background-index", "--clang-tidy", "--function-arg-placeholders=1", "--header-insertion=never", "--pch-storage=memory", "--log=error"]
+[[language]]
+name = "bash"
+language-id = "bash"
+formatter = {command = "shfmt", args = ["%{buffer_name}"]}
+indent = {tab-width=4,unit="\t"}

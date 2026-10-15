@@ -194,4 +194,4 @@ augroup netrw_setup | au!
     au FileType netrw nmap <buffer> l <CR>
 augroup END
 
-
+set rtp+=/opt/homebrew/opt/fzf

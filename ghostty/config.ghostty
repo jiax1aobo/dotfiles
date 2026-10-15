@@ -3,11 +3,11 @@ cursor-style = block
 #theme = Catppuccin Mocha
 #theme = dark:iTerm2 Dark Background,light:iTerm2 Light Background
 #theme = iTerm2 Dark Background
-theme = Gruvbox Dark
+theme = TokyoNight Moon
 
 split-divider-color = #ff3333
 
-font-size = 15
+font-size = 16
 font-family = JetBrainsMono Nerd Font Mono
 font-family-bold = JetBrainsMono NFM Bold
 font-family-italic = JetBrainsMono NFM Italic
@@ -21,3 +21,5 @@ macos-option-as-alt = left
 
 window-height = 45
 window-width = 100
+
+shell-integration = zsh
