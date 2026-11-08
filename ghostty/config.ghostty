@@ -3,7 +3,7 @@ cursor-style = block
 #theme = Catppuccin Mocha
 #theme = dark:iTerm2 Dark Background,light:iTerm2 Light Background
 #theme = iTerm2 Dark Background
-theme = TokyoNight Moon
+theme = TokyoNight Night
 
 split-divider-color = #ff3333
 
@@ -20,6 +20,6 @@ font-family-bold-italic = JetBrainsMono NFM Bold Italic
 macos-option-as-alt = left
 
 window-height = 45
-window-width = 100
+window-width = 140
 
 shell-integration = zsh
