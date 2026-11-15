@@ -16,8 +16,8 @@ formatter = {command = "clang-format", args = ["%{buffer_name}"]}
 language-servers = ["clangd"]
 # indent = {tab-width=4,unit="\t"}
 
-[[language]]
-name = "bash"
-language-id = "bash"
-formatter = {command = "shfmt", args = ["%{buffer_name}"]}
-indent = {tab-width=4,unit="\t"}
+#[[language]]
+#name = "bash"
+#language-id = "bash"
+#formatter = {command = "shfmt", args = ["%{buffer_name}"]}
+#indent = {tab-width=4,unit="\t"}

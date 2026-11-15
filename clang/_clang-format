@@ -94,7 +94,7 @@ CompactNamespaces: false
 ContinuationIndentWidth: 4
 Cpp11BracedListStyle: false
 DerivePointerAlignment: true
-DisableFormat: false
+DisableFormat: true
 EmptyLineAfterAccessModifier: Never
 EmptyLineBeforeAccessModifier: Always
 EnumTrailingComma: Leave
